@@ -1,0 +1,117 @@
+#email{
+    border-radius: 5px;
+    margin:7px;
+}
+
+
+#form-head{
+    margin-top: 70px;
+}
+
+
+#submit{
+        padding: 4px;
+        color: black;
+        background:yellow;
+        font-weight: bolder;
+    
+    }
+
+
+    #feature-logo{
+       display:flex;
+       align-items: center;
+       justify-content: center;
+       height: 125px;
+       width:20vw;
+ }
+
+    .container-2{
+      margin-top: 35px;
+}
+
+
+
+
+
+iframe{
+    margin: 0 auto;
+    display: block;
+    width: 550px;
+}
+
+.card{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 10px;
+     border: 1px solid #000;
+     border-radius: 3px;
+
+}
+
+.card-container{
+    margin-left:160px;
+}
+
+span{
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    h2 {
+     text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+   
+    iframe{
+        margin: 0 auto;
+        display: block;
+        width: 250px;
+        height: 250px;
+        
+    }
+   
+  }
+
+
+
+  @media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1)
+{
+   h2{
+      text-align: center;
+      margin-left: 120px;
+   }
+
+   p{
+       text-align: center;
+       margin-left: 120px;
+   }
+
+}
+
+
+
